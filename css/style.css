@@ -1,0 +1,40 @@
+.nav-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+div.nameMessage{
+    display: flex;
+}
+
+div.name{
+    display: inline-block;
+    width: 50%;
+    height: 100px;
+    background-color: lightpink;
+    text-align: center;
+    padding-top: 20px;
+}
+
+div.message{
+    display: inline-block;
+    width: 50%;
+    padding: 20px;
+}
+
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+p{
+    display: inline;
+    margin: px;
+    padding: 0px;
+}
+
+
+.item{
+    text-align: center;
+    background: lightpink;
+}
