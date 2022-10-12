@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-@media (max-width: 600px){
+@media (max-width: 800px){
 
     
 html{
@@ -19,14 +19,14 @@ html{
 /* Item inside the navigation */
 .item{
     text-align: center;
-    background: #8D99AE;
+    background: #545d6e;
 }
 
 /* The name and message combined */
 div.nameMessage{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background: #EF233C;
+    background: #D90429;
     padding: 20px;
     border: 1px solid;
     justify-self: center;
@@ -50,6 +50,21 @@ div.secondMessage{
     grid-column-start: span 2;
 }
 
+div.page-nav{
+    border: 1px solid;
+    background: #D90429;
+}
+
+.page-item{
+    border: 1px solid;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+h2{
+    padding: 0px;
+    margin: 0.5em;
+}
 
 h1{
     padding: 0px;
@@ -58,10 +73,7 @@ h1{
 
 p{
     display: inline;
-    margin: px;
     padding: 0px;
 }
-
-
 
 }
