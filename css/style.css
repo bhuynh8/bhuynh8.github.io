@@ -1,26 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+@media (max-width: 600px){
+
+    
+html{
+    font-family: Roboto ,sans-serif;
+    background: #2B2D42;
+    color: #EDF2F4;
+}
+
+/* Create a container for the navigation */
 .nav-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
+/* Item inside the navigation */
+.item{
+    text-align: center;
+    background: #8D99AE;
+}
+
+/* The name and message combined */
 div.nameMessage{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #EF233C;
+    padding: 20px;
+    border: 1px solid;
+    justify-self: center;
 }
 
 div.name{
     display: inline-block;
-    width: 50%;
     height: 100px;
-    background-color: lightpink;
-    text-align: center;
-    padding-top: 20px;
+    padding-left: 1em;
+    margin: 0px;
 }
 
 div.message{
     display: inline-block;
-    width: 50%;
-    padding: 20px;
+    justify-self: center;
 }
+
+div.secondMessage{
+    display: block;
+    text-align: center;
+    grid-column-start: span 2;
+}
+
 
 h1{
     padding: 0px;
@@ -34,7 +63,5 @@ p{
 }
 
 
-.item{
-    text-align: center;
-    background: lightpink;
+
 }
